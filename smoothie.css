@@ -1,0 +1,22 @@
+#headerDown ul .smoothie a{
+    background-color: white;
+    color: black;
+}
+
+#productLine .pr1 .prImg {
+    background-image: url(./img/coffeeimg/29.jpg);
+}
+#productLine .pr2 .prImg {
+    background-image: url(./img/coffeeimg/30.jpg);
+}
+#productLine .pr3 .prImg {
+    background-image: url(./img/coffeeimg/31.jpg);
+}
+#productLine .pr4 .prImg {
+    background-image: url(./img/coffeeimg/32.jpg);
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+}
