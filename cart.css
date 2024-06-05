@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {margin:0; padding:0;}
+
+#wrap {}
+
+#products {
+    display: none;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.headerLine {
+    width:100%;
+    height:1px;
+    background-color: #025920;
+    position: absolute;
+    top :70px;
+}
+
+
+#headerIn {
+    width: 1240px;
+    height: 70px;
+    /* background-color: #f2f2f2; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerIn .logo {
+    font-size: 30px;
+    line-height: 70px;
+}
+
+#headerIn .logo a {
+    text-decoration: none;
+    color: black;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#headerIn .basketBtn {
+    width: 145px;
+    height: 35px;
+    border: 1px #025920 solid;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+#headerIn .basketBtn a {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+#headerIn .basketBtn a .icon {
+    display: inline-block;
+    width: 19px;
+    height: 22px;
+    background-image: url(./img/shopping.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -2.5px;
+}
+
+/* 여기 컨텐츠 영역인데 컨텐츠에 대해 적을거 있으면 여기 적기 */
+#container {
+    width: 1240px;
+    margin:0 auto 250px;
+}
+#container ul {
+    list-style: none;
+}
+
+#container ul li {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f2f2f2; */
+    height: 120px;
+    margin-bottom: 40px;
+}
+
+#container ul li .cartLeft{
+    display: flex;
+}
+
+#container ul li .cartLeft .cartImg {}
+
+#container ul li .cartLeft .cartImg img{
+    width: 120px;
+    height: 120px;
+}
+#container ul li .cartLeft .cartTxt{
+    font-size: 20px;
+    margin-left: 30px;
+}
+#container ul li .cartLeft .cartTxt .name{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+
+#container ul li .cartRight {
+    font-size: 26px;
+    margin-top: 38px;
+    display: flex;
+}
+
+#container ul li .cartRight .price {
+    margin-right: 30px;
+
+}
+
+#container ul li .cartRight button {
+    width: 120px;
+    height:50px;
+    margin-top: -6px;
+    font-size: 18px;
+    border: 2px #025920 solid;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.5s;;
+}
+#container ul li .cartRight button:hover  {
+    background-color: #025920;
+    color:white;
+}
+
+
+#pay {
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+
+#pay .payLine {
+    width:100%;
+    height: 60px;
+    background-color: #025920;
+    position: absolute;
+    z-index: -1;
+}
+
+#payIn {
+    width: 1240px;
+    margin:0 auto;
+}
+
+#payIn .all {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+
+#payIn .all #num {
+    width: 200px;
+}
+
+#payIn .all .price-cancel {
+    width: 270px;
+}
+#payIn .all .price-cancel div {
+    display: inline-block;
+}
+
+#payIn .all .price-cancel .cancel a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 130px;
+    height: 35px;
+    border: 1px white solid;
+    line-height: 35px;
+    border-radius: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#payIn .payBtn {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#payIn .payBtn div {}
+
+#payIn .payBtn div a{
+    display: inline-block;
+    width: 320px;
+    height: 70px;
+    background-color: #025920;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    line-height: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width:5px;
+    background-color: #d2d2d2;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 4px;
+    background-color: #025920;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+    <!-- 메뉴이름, 가격 저장장소 -->
+    <ul id="products">
+        <li data-id="1">아메리카노 1800원</li>
+        <li data-id="2">에스프레소 1800원</li>
+        <li data-id="3">아포가토 2800원</li>
+        <li data-id="4">돌체라떼 3800원</li>
+        <li data-id="5">콜드브루 2000원</li>
+        <li data-id="6">바닐라라떼 3800원</li>
+        <li data-id="7">카페라떼 3000원</li>
+        <li data-id="8">헤이즐넛라떼 3800원</li>
+        <li data-id="9">카라멜마끼아또 3800원</li>
+        <li data-id="10">카페모카 3800원</li>
+        <li data-id="11">카푸치노 3800원</li>
+
+        <li data-id="12">녹차 2200원</li>
+        <li data-id="13">레몬티 2200원</li>
+        <li data-id="14">민트티 2200원</li>
+        <li data-id="15">아이스티 2200원</li>
+        <li data-id="16">얼그레이티 2200원</li>
+        <li data-id="17">유스베리티 2200원</li>
+        <li data-id="18">자몽티 2200원</li>
+        <li data-id="19">캐모마일 2200원</li>
+        <li data-id="20">페퍼민트 2200원</li>
+
+        <li data-id="21">딸기에이드 3200원</li>
+        <li data-id="22">딸기자몽에이드 3200원</li>
+        <li data-id="23">라임에이드 3200원</li>
+        <li data-id="24">레몬에이드 3200원</li>
+        <li data-id="25">오렌지에이드 3200원</li>
+        <li data-id="26">용과에이드 3200원</li>
+        <li data-id="27">유자에이드 3200원</li>
+        <li data-id="28">자몽에이드 3200원</li>
+
+        <li data-id="29">레몬스무디 4200원</li>
+        <li data-id="30">망고스무디 4200원</li>
+        <li data-id="31">딸기스무디 4200원</li>
+        <li data-id="32">망고바나나스무디 4200원</li>
+
+        <li data-id="33">리프파이 3800원</li>
+        <li data-id="34">베이글 2800원</li>
+        <li data-id="35">블루베리베이글 3200원</li>
+        <li data-id="36">뺑오쇼콜라 4800원</li>
+        <li data-id="37">소금빵 1000원</li>
+        <li data-id="38">소시지소금빵 2000원</li>
+        <li data-id="39">연유모닝빵 4000원</li>
+        <li data-id="40">초코브레드 5000원</li>
+        <li data-id="41">치즈베이글 3200원</li>
+        <li data-id="42">티라미수 5200원</li>
+    </ul><!--#products-->
+    <div id="wrap">
+        <!-- 헤더영역 -->
+        <header id="header">
+            <div class="headerLine"></div><!--.headerLine-->
+            <div id="headerIn">
+                <div class="logo"><a href="./mainpage.html">Cafe UbSE</a></div><!--.logo-->
+                <div class="basketBtn">
+                    <a href="./cart.html">
+                        <span class="icon"></span>
+                        <span class="txt">장바구니</span>
+                    </a>
+                </div><!--basketBtn-->
+            </div><!--#headerIn-->
+        </header><!--#header-->
+
+        <!-- 주문메뉴 목록 영역 -->
+        <div id="container">
+            <ul id="cart"></ul>
+        </div><!--#container-->
+
+        <!-- 계산하기 영역 -->
+        <div id="pay">
+            <div class="payLine"></div><!--.payLine-->
+            <div id="payIn">
+
+                <div class="all">
+                    <div id="num">총 구매 상품 : 0개</div><!--.num-->
+                    <div class="price-cancel">
+                        <div id="price">0원</div><!--.price-->
+                        <div class="cancel">
+                            <a onclick="clearCart()">전체 취소</a>
+                        </div><!--.cancel-->
+                    </div><!--.Price-->
+                </div><!--.all-->
+
+                <div class="payBtn">
+                    <div class="credit">
+                        <a onclick="payment()">신용카드</a>
+                    </div><!--.credit-->
+                    <div class="cash">
+                        <a onclick="payment()">현금결제</a>
+                    </div><!--.cash-->
+                    <div class="coupon">
+                        <a onclick="payment()">쿠폰사용</a>
+                    </div><!--.coupon-->
+                </div><!--.payBtn-->
+
+            </div><!--#payIn-->
+        </div><!--#pay-->
+
+
+    </div><!--#wrap-->
+
+    <script src="./js/cart-show.js"></script>
+    <script>
+        showCart()
+    </script>
+</body>
+</html>
