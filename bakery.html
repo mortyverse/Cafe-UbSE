@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee - order</title>
+    <link rel="stylesheet" href="./menu-share.css">
+    <link rel="stylesheet" href="./bakery.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div id="headerIn">
+                <div id="headerUp">
+                    <div class="logo"><a href="./mainpage.html">Cafe UbSE</a></div><!--.logo-->
+                    <div class="basketBtn">
+                        <a href="./cart.html">
+                            <span class="icon"></span>
+                            <span class="txt">장바구니</span>
+                        </a>
+                    </div><!--basketBtn-->
+                </div><!--#headerUp-->
+                <div id="headerDown">
+                    <ul>
+                        <li class="coffee">
+                            <a href="./coffee.html">COFFEE</a>
+                        </li><!--.coffee-->
+                        <li class="tea">
+                            <a href="./tea.html">TEA</a>
+                        </li><!--.tea-->
+                        <li class="ade">
+                            <a href="./ade.html">ADE</a>
+                        </li><!--.ade-->
+                        <li class="smoothie">
+                            <a href="./smoothie.html">SMOOTHIE</a>
+                        </li><!--.smoothie-->
+                        <li class="bakery">
+                            <a href="./bakery.html">BAKERY</a>
+                        </li><!--.bakery-->
+                    </ul>
+                </div><!--#headerDown-->
+            </div><!--#headerIn-->
+            <div id="headerLine"></div><!--#headerLine-->
+        </header><!--#header-->
+
+        <div id="container">
+            <div id="productLine" class="pdLine1">
+
+                <a onclick="addToCart(33)" class="pr1">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">리프파이<span>&nbsp;|&nbsp;</span>3,800원</div><!--.prTxt-->
+                </a><!--.pr1-->
+
+                <a onclick="addToCart(34)" class="pr2">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">베이글<span>&nbsp;|&nbsp;</span>2,800원</div><!--.prTxt-->
+                </a><!--.pr2-->
+
+                <a onclick="addToCart(35)" class="pr3">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">블루베리베이글<span>&nbsp;|&nbsp;</span>3,200원</div><!--.prTxt-->
+                </a><!--.pr3-->
+
+                <a onclick="addToCart(36)" class="pr4">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">뺑오쇼콜라<span>&nbsp;|&nbsp;</span>4,800원</div><!--.prTxt-->
+                </a><!--.pr4-->
+
+            </div><!--#productLine-->
+
+            <div id="productLine" class="pdLine2">
+
+                <a onclick="addToCart(37)" class="pr5">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">소금빵<span>&nbsp;|&nbsp;</span>1,000원</div><!--.prTxt-->
+                </a><!--.pr1-->
+
+                <a onclick="addToCart(38)" class="pr6">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">소시지소금빵<span>&nbsp;|&nbsp;</span>2,000원</div><!--.prTxt-->
+                </a><!--.pr2-->
+
+                <a onclick="addToCart(39)" class="pr7">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">연유모닝빵<span>&nbsp;|&nbsp;</span>4,000원</div><!--.prTxt-->
+                </a><!--.pr3-->
+
+                <a onclick="addToCart(40)" class="pr8">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">초코브레드<span>&nbsp;|&nbsp;</span>5,000원</div><!--.prTxt-->
+                </a><!--.pr4-->
+
+            </div><!--#productLine-->
+
+            <div id="productLine" class="pdLine3">
+
+                <a onclick="addToCart(41)" class="pr9">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">치즈베이글<span>&nbsp;|&nbsp;</span>3,200원</div><!--.prTxt-->
+                </a><!--.pr1-->
+
+                <a onclick="addToCart(42)" class="pr10">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">티라미수<span>&nbsp;|&nbsp;</span>5,200원</div><!--.prTxt-->
+                </a><!--.pr2-->
+
+                <a onclick="addToCart()" class="pr11">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">카푸치노<span>&nbsp;|&nbsp;</span>3,800원</div><!--.prTxt-->
+                </a><!--.pr3-->
+
+                <a onclick="addToCart(0)" class="pr12">
+                    <div class="bg-icon">
+                        <p class="bg"></p><!--.bg-->
+                        <p class="icon"></p><!--.icon-->
+                    </div><!--.bg-icon-->
+                    <div class="prImg"></div><!--.prImg-->
+                    <div class="prTxt">헤이즐넛라떼<span>&nbsp;|&nbsp;</span>3,800원</div><!--.prTxt-->
+                </a><!--.pr4-->
+
+            </div><!--#productLine-->
+            
+        </div><!--#container-->
+
+        <footer id="footer">Cafe UbSE</footer><!--#footer-->
+    </div><!--#wrap-->
+
+    <script src="./js/cart-add.js"></script>
+</body>
+</html>
