@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {margin:0; padding:0;}
+/* 모든 주문페이지에서 공유하는 코드를 모아놓은 css */
+
+#wrap {
+    width: 100%;
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#headerIn {
+    width: 1240px;
+    height: 120px;
+}
+
+#headerUp {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerUp .logo {
+    font-size: 30px;
+    line-height: 70px;
+}
+
+#headerUp .logo a {
+    text-decoration: none;
+    color: black;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#headerUp .basketBtn {
+    width: 145px;
+    height: 35px;
+    border: 1px #025920 solid;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+#headerUp .basketBtn a {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    text-decoration: none;
+    color: black;
+}
+#headerUp .basketBtn a .icon {
+    display: inline-block;
+    width: 19px;
+    height: 22px;
+    background-image: url(./img/shopping.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -2.5px;
+}
+
+#headerDown {
+    padding-top: 10px;
+}
+#headerDown ul {
+    display: flex;
+    justify-content: space-between;
+}
+#headerDown ul li {
+    list-style: none;
+}
+
+#headerDown ul li a {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+#headerLine {
+    position: absolute;
+    top: 70px;
+    width:100%;
+    height: 60px;
+    background-color: #025920;
+    z-index: -1;
+}
+
+#container {
+    width: 1240px;
+    margin:0 auto;
+}
+#productLine {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;;
+}
+
+#productLine a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 230px;
+    height: 270px;
+    background-color: #f2f2f2;
+    position: relative;
+    cursor: pointer;
+}
+
+/* 마우스 호버시 검은배경 */
+#productLine a .bg {
+    width: 230px;
+    height: 270px;
+    background-color: black;
+    position: absolute;
+    transition: all 0.3s;
+    opacity: 0.44;
+}
+#productLine a .icon {
+    width: 60px;
+    height: 60px;
+    background-image: url(./img/addBtn.png);
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+
+#productLine a .bg-icon {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+
+#productLine a .bg-icon:hover {
+    opacity: 1; 
+}
+
+#productLine a:nth-child(4) {
+    margin-right:0;
+}
+
+#productLine a .prImg {
+    width:230px;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+#productLine a .prTxt {
+    text-align: center;
+    line-height: 40px;
+}
+
+#productLine a .prTxt span {
+    opacity: 40%;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+    color: #797979;
+}
+
+::-webkit-scrollbar {
+    width:5px;
+    background-color: #d2d2d2;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 4px;
+    background-color: #025920;
+}
