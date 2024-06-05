@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe UbSE</title>
+    <link rel="stylesheet" href="./mainpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <style>
+        .bx-wrapper {border:0; box-shadow:none; margin:0;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="mainSlider">
+            <div><img id="img"  src="./img/slide1.png" alt="슬라이더사진1"></div>
+            <div><img id="img"  src="./img/slide2.png" alt="슬라이더사진2"></div>
+            <div><img id="img" src="./img/slide3.png" alt="슬라이더사진3"></div>
+        </div><!--#mainSlider-->
+
+        <div id="logo">
+            <img   src="./img/UbSE_LOGO.png" alt="UbSE로고">
+        </div><!--#logo-->
+
+        <div id="content">
+            <div class="title">Cafe UbSE</div><!--.title-->
+            <div class="text">기다리지 말고 간편하게<br>여기서 주문하세요!</div><!--.text-->
+        </div><!--#content-->
+
+        <div id="pagerWrap">
+            <div id="slider-prev"></div>
+            <div id="slider-next"></div>
+        </div><!--#pagerWrap-->
+
+        <div id="orderBtn">
+            <a href="./coffee.html">ORDER</a>
+        </div><!--#orderBtn-->
+    </div><!--#wrap-->
+
+    <script>
+        $('#mainSlider').bxSlider({
+        auto: true,
+        autoControls: false,
+        stopAutoOnClick: false,
+        pager: false,
+
+        nextSelector: '#slider-next',
+        prevSelector: '#slider-prev',
+        nextText: '',
+        prevText: ''
+        });
+    </script>
+</body>
+</html>
