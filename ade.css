@@ -1,0 +1,35 @@
+#headerDown ul .ade a{
+    background-color: white;
+    color: black;
+}
+
+#productLine .pr1 .prImg {
+    background-image: url(./img/coffeeimg/21.jpg);
+}
+#productLine .pr2 .prImg {
+    background-image: url(./img/coffeeimg/22.jpg);
+}
+#productLine .pr3 .prImg {
+    background-image: url(./img/coffeeimg/23.jpg);
+}
+#productLine .pr4 .prImg {
+    background-image: url(./img/coffeeimg/24.jpg);
+}
+
+#productLine .pr5 .prImg {
+    background-image: url(./img/coffeeimg/25.jpg);
+}
+#productLine .pr6 .prImg {
+    background-image: url(./img/coffeeimg/26.jpg);
+}
+#productLine .pr7 .prImg {
+    background-image: url(./img/coffeeimg/27.jpg);
+}
+#productLine .pr8 .prImg {
+    background-image: url(./img/coffeeimg/28.jpg);
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+}
