@@ -1,0 +1,42 @@
+#headerDown ul .bakery a{
+    background-color: white;
+    color: black;
+}
+
+#productLine .pr11,.pr12 {
+    visibility: hidden;
+}
+
+#productLine .pr1 .prImg {
+    background-image: url(./img/coffeeimg/33.jpg);
+}
+#productLine .pr2 .prImg {
+    background-image: url(./img/coffeeimg/34.jpg);
+}
+#productLine .pr3 .prImg {
+    background-image: url(./img/coffeeimg/35.jpg);
+}
+#productLine .pr4 .prImg {
+    background-image: url(./img/coffeeimg/36.jpg);
+}
+
+#productLine .pr5 .prImg {
+    background-image: url(./img/coffeeimg/37.jpg);
+}
+#productLine .pr6 .prImg {
+    background-image: url(./img/coffeeimg/38.jpg);
+}
+#productLine .pr7 .prImg {
+    background-image: url(./img/coffeeimg/39.jpg);
+}
+#productLine .pr8 .prImg {
+    background-image: url(./img/coffeeimg/40.jpg);
+}
+
+#productLine .pr9 .prImg {
+    background-image: url(./img/coffeeimg/41.jpg);
+}
+
+#productLine .pr10 .prImg {
+    background-image: url(./img/coffeeimg/42.jpg);
+}
