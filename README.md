@@ -1,5 +1,13 @@
 # Cafe UbSE를 위한 키오스크
 
+## 첫 페이지는 mainpage.html 입니다.
+
+### 페이지 순서
+1. mainpage
+1. coffee, tea, ade, smoothie, bakery
+1. cart
+1. complete
+
 ### 주요 기능
 1. 첫페이지 화면의 자동 슬라이드 기능.
 2. 메뉴를 클릭하면 장바구니에 담김. 여러번 클릭하면 수량이 늘어남.
